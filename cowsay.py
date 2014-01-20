@@ -2,6 +2,8 @@
 # Copyright 2011 Jesse Chan-Norris <jcn@pith.org>
 # Licensed under the GNU LGPL version 3.0
 
+# Edited in some places by David Tschida. 
+
 import sys
 import textwrap
 # To strip whitespace

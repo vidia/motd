@@ -24,3 +24,6 @@ Enjoy! I hope you like it.
 I used the following API. I should probably give credit. 
 
 [iheartquotes API](http://iheartquotes.com/api)
+
+I also give credit to jcn over at https://github.com/jcn/cowsay-py for his Python implementation of Cowsay! Thanks! 
+(Note: I added grass to the cow, the rest is his.)
