@@ -4,7 +4,7 @@ alias getfortune='wget --timeout=3 -O - -q'
 alias fortune='getfortune http://www.iheartquotes.com/api/v1/random'
 
 FORTUNE=$(wget --timeout=3 -O - -q http://www.iheartquotes.com/api/v1/random)
-echo "$FORTUNE" > last_fortune
+echo "$FORTUNE" > ~/.motd/motd/last_fortune
 NOHTTP=$(echo "$FORTUNE" | sed 's\&.*;\\g' 2>/dev/null | sed 's\http:.*\\g' 2>/dev/null)
 
 #echo "$NOHTTP"
